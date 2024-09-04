@@ -15,16 +15,18 @@ Using the np.linalg.solve(), we can find the solutions.
 ### Step 4: 
 End the program
 ## Program:
+```
 #Program to find the solution for the given linear equations.
 #Developed by: MUKESH
 #RegisterNumber:212223230128
 import numpy as np
-A = np.array([[1, -3][3, 1][0, 10]))
-b = np.array
+A = np.array([[1, -3],
+              [3, 1]])
+b = np.array([0, 10])
 solution = np.linalg.solve(A, b)
 print(solution)
 
-
+```
 ## Output:
 ![Screenshot 2024-09-03 180335](https://github.com/user-attachments/assets/73d4b806-3b70-451e-b5a7-773f5131ea86)
 
