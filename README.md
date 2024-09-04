@@ -19,9 +19,8 @@ End the program
 #Developed by: MUKESH
 #RegisterNumber:212223230128
 import numpy as np
-A = np.array([[1, -3],
-              [3, 1]])
-b = np.array([0, 10])
+A = np.array([[1, -3][3, 1][0, 10]))
+b = np.array
 solution = np.linalg.solve(A, b)
 print(solution)
 
